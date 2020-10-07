@@ -1,5 +1,7 @@
 import React from "react";
 import "./home.sass";
+import {Link} from 'react-router-dom';
+
 const Home = () => {
   return (
     <div className="home">
@@ -26,9 +28,13 @@ const Home = () => {
           to the existing approaches.
         </div>
 
-        <a href="#abc" className="home_button_explore">
-          EXPLORE NOW
-        </a>
+        <Link to="/team" className="home_button_explore">
+          <span>EXPLORE NOW</span>
+          <img
+            src={require("../../images/body/home/button.png")}
+            alt="Button explore"
+          />
+        </Link>
       </div>
 
       <div
