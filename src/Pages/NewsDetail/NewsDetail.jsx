@@ -9,7 +9,12 @@ const NewsDetail = () => {
 
   return (
     <>
-      <div className="block_title">News</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/news.png")}"`
+        }}
+      >News</div>
       <div className="news_detail">
         <div className="news_detail_header">
           <Link to="/news">News</Link>

@@ -4,7 +4,12 @@ import "./deliverable.sass";
 const Objects = () => {
   return (
     <>
-      <div className="block_title">Deliverables</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/deliverable.png")}"`
+        }}
+      >Deliverables</div>
       <div
         className="deliverables"
         style={{

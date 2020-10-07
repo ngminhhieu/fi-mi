@@ -4,7 +4,12 @@ import "./team.sass";
 const Team = () => {
   return (
     <>
-      <div className="block_title">Our Team</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/team.png")}"`
+        }}
+      >Our Team</div>
       <div className="team">
         <div className="team_logo">
           <img

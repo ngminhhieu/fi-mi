@@ -4,7 +4,12 @@ import "./architecture.sass";
 const Architecture = () => {
   return (
     <>
-      <div className="block_title">Fi-Mi Architecture</div>
+      <div 
+        className="block_title" 
+        style={{
+          backgroundImage: `url("${require("../../images/header/architecture.png")}"`
+        }}
+      >Fi-Mi Architecture</div>
       <div
         className="architecture"
         style={{

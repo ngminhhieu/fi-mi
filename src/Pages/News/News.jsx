@@ -10,7 +10,12 @@ const News = () => {
 
   return (
     <>
-      <div className="block_title">News</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/news.png")}"`
+        }}
+      >News</div>
       <div className="news">
         <div className="news_list">
         {

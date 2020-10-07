@@ -4,7 +4,12 @@ import "./objective.sass";
 const Objects = () => {
   return (
     <>
-      <div className="block_title">Objectives</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/objective.png")}"`
+        }}
+      >Objectives</div>
       <div
         className="objectives"
         style={{

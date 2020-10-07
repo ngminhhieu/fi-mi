@@ -4,7 +4,12 @@ import "./contact.sass";
 const Contact = () => {
   return (
     <>
-      <div className="block_title">Contact Us</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/contact.png")}"`
+        }}
+      >Contact Us</div>
       <div className="contact">
         <div className="contact_wrapper vietnam_wrapper">
           <div className="contact_box">

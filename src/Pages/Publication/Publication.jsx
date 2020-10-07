@@ -4,7 +4,12 @@ import "./publication.sass";
 const Publications = () => {
   return (
     <>
-      <div className="block_title">Publications</div>
+      <div 
+        className="block_title"
+        style={{
+          backgroundImage: `url("${require("../../images/header/publication.png")}"`
+        }}
+      >Publications</div>
       <div className="publications">
         <div className="publications_journals">
           <div className="title">Journal papers</div>
