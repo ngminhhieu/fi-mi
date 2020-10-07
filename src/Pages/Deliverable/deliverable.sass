@@ -14,14 +14,23 @@
       background-position: center
       background-repeat: no-repeat
       margin: 56px 28px
-  .deliverables_content
+  .deliverables_content_wrapper
     width: 50%
-    padding: 120px 192px 0 28px
-    text-align: justify
-    font-size: 14px
-    line-height: 16px
+    display: flex
+    justify-content: flex-start
+    padding: 120px 24px
+  .deliverables_content
+    width: 488px
     ul 
       list-style: none
+      margin-left: -24px
+      li
+        font-size: 14px
+        line-height: 20px
+        font-weight: 500
+        margin-bottom: 16px
+        &:last-child
+          margin-bottom: 0
     ul li::before 
       content: "\2022"
       color: #2A82C4
@@ -49,7 +58,6 @@
         background-repeat: no-repeat
         margin: 20px
     .deliverables_content
-      text-align: justify
       padding: 0
       margin-left: auto
       margin-right: auto

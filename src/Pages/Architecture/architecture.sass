@@ -14,21 +14,28 @@
       background-position: center
       background-repeat: no-repeat
       margin: 40px 32px
-  .architecture_content
+  .architecture_content_wrapper
     width: 50%
-    padding: 128px 156px 0 32px
+    padding: 128px 32px 32px
+    display: flex
+    justify-content: flex-start
+  .architecture_content
+    width: 524px
     background-size: contain
     background-position: bottom left
     background-repeat: no-repeat
-    text-align: justify
     font-size: 14px
     line-height: 24px
     .architecture_content_intro
       color: #2A82C4
     .architecture_content_details
-      padding-top: 16px
       ul 
         list-style: none
+        margin-left: -24px
+        li
+          margin-bottom: 16px
+          &:last-child
+            margin-bottom: 0
       ul li::before 
         content: "\2022"
         color: #2A82C4
@@ -51,8 +58,9 @@
         background-position: center
         background-repeat: no-repeat
         margin: 20px
+    .architecture_content_wrapper
+      width: 100%
     .architecture_content
-      text-align: justify
       padding: 0
       margin-left: auto
       margin-right: auto

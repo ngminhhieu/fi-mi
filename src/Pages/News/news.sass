@@ -4,49 +4,63 @@
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+    width: 800px
+    margin: 0 auto
     .news_list_item
       width: calc((100% - 30px)/2)
-      margin-bottom: 24px
+      margin-bottom: 32px
       .news_list_item_time
         font-weight: normal
         font-size: 13px
-        line-height: 15px
+        line-height: 16px
         color: #AAAAAA
       .news_list_item_image
         margin-bottom: 16px 
       .news_list_item_title
-        margin-bottom: 8px
+        margin-bottom: 12px
         font-weight: 500
         font-size: 14px
-        line-height: 24px
+        line-height: 20px
         color: #2A82C4
       &:first-child
         width: 100%
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+        border-bottom: 1px solid rgba(27, 15, 15, 0.1)
         padding-bottom: 24px
         .news_list_item_image
-          margin-bottom: 24px
-        
+          margin-bottom: 16px
         .news_list_item_title
           font-size: 20px
           line-height: 25px
           color: #2A82C4
-        a
-          text-decoration: none
+        a.view_detail
+          font-size: 14px
+          line-height: 20px
+          text-decoration: underline
   .news_navigation
     border-top: 1px solid rgba(0, 0, 0, 0.1) 
     padding-top: 24px
     display: flex
     justify-content: center
     .news_navigation_item
-      width: 32px
-      height: 32px
+      font-size: 14px
+      line-height: 20px
+      font-weight: 500
+      width: 40px
+      height: 40px
       border-radius: 4px
-      background: linear-gradient(138.36deg, #1D48E3 0%, #1DACE3 94.78%)
-      color: white
       text-align: center
-      padding: 6px
       margin-right: 8px
+      cursor: pointer
+      color: #666666
+      background-color: white
+      border: 1px solid rgba(127, 150, 179, 0.302994)
+      transition: .2s ease
+      display: flex
+      align-items: center
+      justify-content: center
+      &.active, &:hover
+        color: white
+        background: linear-gradient(138.36deg, #1D48E3 0%, #1DACE3 94.78%)
       &:last-child
         margin-right: 0
         margin-left: -8px
@@ -57,8 +71,11 @@
     .news_navigation_transparent
       background: transparent
       color: #327FE9
+      border: 0
       img
         width: auto
+      &:hover img
+        filter: brightness(0) invert(1)
     .news_navigation_left
       transform: rotate(180deg)
       
@@ -66,6 +83,7 @@
   .news
     padding: 70px 20px 20px
     .news_list
+      width: auto
       display: block
       .news_list_item
         width: auto

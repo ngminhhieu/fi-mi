@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import "./header.sass";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const menu_list = [
   { text: "Home", link: "/" },
@@ -39,7 +39,7 @@ const Header = () => {
         </div>
         <div className="menu">
           {menu_list.map((item, index) => (
-            <Link to={item.link} className="item">
+            <Link key={item.link} to={item.link} className="item">
               {item.text}
             </Link>
           ))}
@@ -68,7 +68,6 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="block_title">News</div>
     </div>
   );
 };

@@ -1,21 +1,25 @@
 .news_detail
   display: block
   padding: 40px 46px
+  width: 800px
+  margin: 0 auto
   .news_detail_header 
     text-align: center
     font-weight: 500
     font-size: 13px
     line-height: 16px
     margin-bottom: 20px
-    span
-      color: #2A82C4
   .news_detail_image
     margin-bottom: 24px
   .news_detail_content
-    text-align: justify
     border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+    p
+      font-size: 14px
+      line-height: 20px
+      margin: 0 0 16px
+      &.first_pline
+        margin-bottom: 0
     a
-      text-decoration: none
       margin-bottom: 24px
     b
       font-size: 13px
@@ -32,6 +36,7 @@
       font-size: 13px
       line-height: 15px
       color: #AAAAAA
+      margin-bottom: 16px
   .news_detail_related
     padding: 24px 0
     .news_detail_related_label
@@ -45,11 +50,14 @@
       justify-content: space-between
       .news_detail_related_list_item
         width: calc((100% - 60px)/3)
+        img
+          margin-bottom: 12px
         .news_detail_related_list_item_title
           font-weight: 500
           font-size: 14px
-          line-height: 24px
+          line-height: 20px
           color: #2A82C4
+          margin-bottom: 8px
         .news_detail_related_list_item_time
           font-weight: normal
           font-size: 13px
@@ -59,6 +67,7 @@
 @media (max-width: 1199.98px)
   .news_detail
     padding: 20px
+    width: auto
     .news_detail_related
       .news_detail_related_list
         display: block

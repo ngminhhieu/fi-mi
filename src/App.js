@@ -11,7 +11,7 @@ import Publication from "./Pages/Publication/Publication.jsx";
 import News from "./Pages/News/News.jsx";
 import NewsDetail from "./Pages/NewsDetail/NewsDetail.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
           <Route exact path="/publication" component={Publication} />
           <Route exact path="/news" component={News} />
           <Route exact path="/contact" component={Contact} />
+          <Route path="/news-detail/:id" component={NewsDetail} />
         </Switch>
         <Footer />
       </div>

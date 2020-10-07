@@ -18,7 +18,7 @@
       width: 50%
       align-items: center
       display: flex
-      margin-left: 20px
+      margin-left: 32px
       .team_details_description
         width: 488px
         .team_details_description_title
@@ -32,16 +32,20 @@
           background-color: #2A82C4
           margin: 16px 0
         .team_details_description_info
-          margin-left: -20px
+          margin-left: -24px
           ul 
             list-style: none
-          ul li::before 
-            content: "\2022"
-            color: #2A82C4
-            font-weight: bold
-            display: inline-block
-            width: 1em
-            margin-left: -1em
+            li
+              margin-bottom: 8px
+              &:last-child
+                margin-bottom: 0
+            li::before 
+              content: "\2022"
+              color: #2A82C4
+              font-weight: bold
+              display: inline-block
+              width: 1em
+              margin-left: -1em
           
   
   .team_japan
@@ -50,7 +54,7 @@
     .team_details_description_wrapper
       justify-content: flex-end
       margin-left: 0
-      margin-right: 20px
+      margin-right: 32px
 
 @media (max-width: 1199.98px) 
   .team
