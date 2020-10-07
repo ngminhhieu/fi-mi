@@ -10,7 +10,8 @@ const Publications = () => {
           backgroundImage: `url("${require("../../images/header/publication.png")}"`
         }}
       >Publications</div>
-      <div className="publications">
+      <div className="tba">TO BE ANNOUNCED</div>
+      {/* <div className="publications">
         <div className="publications_journals">
           <div className="title">Journal papers</div>
           <p>
@@ -253,7 +254,7 @@ const Publications = () => {
           Siemens, "Study on enhanced support of Industrial IoT"</p>
           
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -16,7 +16,8 @@ const News = () => {
           backgroundImage: `url("${require("../../images/header/news.png")}"`
         }}
       >News</div>
-      <div className="news">
+      <div className="tba">TO BE ANNOUNCED</div>
+      {/* <div className="news">
         <div className="news_list">
         {
           news_list.map((item, index) => (
@@ -68,7 +69,7 @@ const News = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
             <div className="contact_description">
               <h3 class="contact_team_title">Japanese Team</h3>
-              <p>Prof. Kien Nguyen</p>
+              <p><b>Prof. Kien Nguyen</b></p>
               <p>Graduate School of Engineering</p>
               <p>Chiba University</p>
               <p>

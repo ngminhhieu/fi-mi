@@ -10,7 +10,8 @@ const Objects = () => {
           backgroundImage: `url("${require("../../images/header/deliverable.png")}"`
         }}
       >Deliverables</div>
-      <div
+      <div className="tba">TO BE ANNOUNCED</div>
+      {/* <div
         className="deliverables"
         style={{
           backgroundImage: `url("${require("../../images/body/union_blue.png")}"`
@@ -52,7 +53,7 @@ const Objects = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

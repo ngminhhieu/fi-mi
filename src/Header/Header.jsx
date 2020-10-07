@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import "./header.sass";
 import { Link } from "react-router-dom";
+import logo from '../images/logo.svg';
 
 const menu_list = [
   { text: "Home", link: "/" },
@@ -34,7 +35,7 @@ const Header = () => {
       <div className="navigation">
         <div className="logo">
           <Link to="/">
-            <img src={require("../images/logo.png")} alt="" />
+            <img src={logo} alt="" />
           </Link>
         </div>
         <div className="menu">
@@ -64,7 +65,7 @@ const Header = () => {
         </div>
         <div className="logo">
           <Link to="/">
-            <img src={require("../images/logo.png")} alt="" />
+            <img src={logo} alt="" />
           </Link>
         </div>
       </div>
