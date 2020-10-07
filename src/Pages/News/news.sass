@@ -1,0 +1,79 @@
+.news
+  padding: 40px 46px
+  .news_list
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    .news_list_item
+      width: calc((100% - 30px)/2)
+      margin-bottom: 24px
+      .news_list_item_time
+        font-weight: normal
+        font-size: 13px
+        line-height: 15px
+        color: #AAAAAA
+      .news_list_item_image
+        margin-bottom: 16px 
+      .news_list_item_title
+        margin-bottom: 8px
+        font-weight: 500
+        font-size: 14px
+        line-height: 24px
+        color: #2A82C4
+      &:first-child
+        width: 100%
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+        padding-bottom: 24px
+        .news_list_item_image
+          margin-bottom: 24px
+        
+        .news_list_item_title
+          font-size: 20px
+          line-height: 25px
+          color: #2A82C4
+        a
+          text-decoration: none
+  .news_navigation
+    border-top: 1px solid rgba(0, 0, 0, 0.1) 
+    padding-top: 24px
+    display: flex
+    justify-content: center
+    .news_navigation_item
+      width: 32px
+      height: 32px
+      border-radius: 4px
+      background: linear-gradient(138.36deg, #1D48E3 0%, #1DACE3 94.78%)
+      color: white
+      text-align: center
+      padding: 6px
+      margin-right: 8px
+      &:last-child
+        margin-right: 0
+        margin-left: -8px
+        padding: 6px 3px
+      &:first-child
+        padding: 6px 3px
+        margin-right: 0
+    .news_navigation_transparent
+      background: transparent
+      color: #327FE9
+      img
+        width: auto
+    .news_navigation_left
+      transform: rotate(180deg)
+      
+@media (max-width: 1199.98px)
+  .news
+    padding: 70px 20px 20px
+    .news_list
+      display: block
+      .news_list_item
+        width: auto
+      &:first-child
+        width: auto
+      
+          
+
+
+        
+        

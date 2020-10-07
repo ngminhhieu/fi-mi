@@ -1,4 +1,5 @@
-import React from "react";import "./home.sass";
+import React from "react";
+import "./home.sass";
 const Home = () => {
   return (
     <div className="home">

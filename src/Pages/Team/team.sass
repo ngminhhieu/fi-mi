@@ -1,0 +1,92 @@
+.team
+  .team_logo
+    text-align: center
+    display: block
+    margin: 56px 0 96px
+    img
+      width: auto
+  .team_details
+    display: flex
+    .team_details_image_wrapper
+      display: flex
+      justify-content: flex-end
+      width: 50%
+      .team_details_image
+        width: 488px
+        height: 304px
+    .team_details_description_wrapper
+      width: 50%
+      align-items: center
+      display: flex
+      margin-left: 20px
+      .team_details_description
+        width: 488px
+        .team_details_description_title
+          font-weight: bold
+          font-size: 24px
+          line-height: 30px
+          color: #2A82C4
+        .team_details_description_line
+          width: 72px
+          height: 2px
+          background-color: #2A82C4
+          margin: 16px 0
+        .team_details_description_info
+          margin-left: -20px
+          ul 
+            list-style: none
+          ul li::before 
+            content: "\2022"
+            color: #2A82C4
+            font-weight: bold
+            display: inline-block
+            width: 1em
+            margin-left: -1em
+          
+  
+  .team_japan
+    .team_details_image_wrapper
+      justify-content: flex-start
+    .team_details_description_wrapper
+      justify-content: flex-end
+      margin-left: 0
+      margin-right: 20px
+
+@media (max-width: 1199.98px) 
+  .team
+    padding: 20px 20px
+    .team_logo img
+      width: 100%
+      margin-bottom: 36px
+    .team_details
+      display: block
+      .team_details_image_wrapper
+        display: block
+        width: auto
+        margin-bottom: 24px
+        .team_details_image
+          width: 100%
+          height: auto
+      .team_details_description_wrapper
+        width: auto
+        display: block
+        margin-bottom: 24px
+        .team_details_description
+          width: auto
+    
+    .team_vietnam
+      .team_details_description_wrapper
+        margin-left: 0
+
+    .team_japan
+      display: flex
+      flex-direction: column
+      .team_details_image_wrapper
+        order: 1
+        justify-content: unset
+        margin-bottom: 24px
+      .team_details_description_wrapper
+        order: 2
+        justify-content: unset
+        margin-bottom:  24px
+

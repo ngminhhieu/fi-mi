@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import "./header.sass";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const menu_list = [
-  { text: "Home", link: "#" },
-  { text: "Team", link: "#" },
-  { text: "Fi-Mi Architecture", link: "#" },
-  { text: "Objectives", link: "#" },
-  { text: "Deliverables", link: "#" },
-  { text: "Publications", link: "#" },
-  { text: "News", link: "#" },
-  { text: "Contact", link: "#" }
+  { text: "Home", link: "/" },
+  { text: "Team", link: "/team" },
+  { text: "Fi-Mi Architecture", link: "/architecture" },
+  { text: "Objectives", link: "/objective" },
+  { text: "Deliverables", link: "/deliverable" },
+  { text: "Publications", link: "/publication" },
+  { text: "News", link: "/news" },
+  { text: "Contact", link: "/contact" }
 ];
 
 const Header = () => {
@@ -32,15 +33,15 @@ const Header = () => {
     <div className="header">
       <div className="navigation">
         <div className="logo">
-          <a href="#abc">
+          <Link to="/">
             <img src={require("../images/logo.png")} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="menu">
           {menu_list.map((item, index) => (
-            <a href={item.link} className="item">
+            <Link to={item.link} className="item">
               {item.text}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -56,17 +57,18 @@ const Header = () => {
             <img src={require("../images/header/close.png")} alt="close" />
           </div>
           {menu_list.map((item, index) => (
-            <a href={item.link} className="item">
+            <Link to={item.link} className="item">
               {item.text}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="logo">
-          <a href="#abc">
+          <Link to="/">
             <img src={require("../images/logo.png")} alt="" />
-          </a>
+          </Link>
         </div>
       </div>
+      <div className="block_title">News</div>
     </div>
   );
 };

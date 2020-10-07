@@ -1,0 +1,55 @@
+.deliverables
+  display: flex
+  background-size: contain
+  background-position: bottom left
+  background-repeat: no-repeat
+  .deliverables_image_wrapper
+    width: 50%
+    display: flex
+    justify-content: flex-end
+    .deliverables_image
+      width: 488px
+      height: 366px
+      background-size: contain
+      background-position: center
+      background-repeat: no-repeat
+      margin: 56px 28px
+  .deliverables_content
+    width: 50%
+    padding: 120px 192px 0 28px
+    text-align: justify
+    font-size: 14px
+    line-height: 16px
+    ul 
+      list-style: none
+    ul li::before 
+      content: "\2022"
+      color: #2A82C4
+      font-weight: bold
+      display: inline-block
+      width: 1em
+      margin-left: -1em
+    .deliverables_content_intro
+      color: #2A82C4
+    .deliverables_content_details
+      padding-top: 16px
+
+@media (max-width: 1199.98px) 
+  .deliverables
+    flex-direction: column
+    .deliverables_image_wrapper
+      width: 100%
+      display: flex
+      justify-content: center
+      .deliverables_image
+        width: 334px
+        height: 250px
+        background-size: contain
+        background-position: center
+        background-repeat: no-repeat
+        margin: 20px
+    .deliverables_content
+      text-align: justify
+      padding: 0
+      margin-left: auto
+      margin-right: auto
