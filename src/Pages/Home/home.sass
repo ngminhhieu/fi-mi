@@ -48,7 +48,10 @@
   display: flex
   justify-content: flex-start
   width: 50%
-  .home_background
+  .home_background img
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
     width: 600px
     height: 600px
 
@@ -68,11 +71,14 @@
         text-align: center
     
     .home_background_wrapper
-      display: block
-      width: auto
+      width: 100%
+      display: flex
+      justify-content: center
       .home_background
-        width: auto
-        height: 432px
-        margin: 20px 98px
-        order: 1
+        img
+          padding: 20px 98px
+          width: auto
+          height: 432px
+          order: 1
+        
       
