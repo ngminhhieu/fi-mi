@@ -1,15 +1,18 @@
 import React from "react";
 import "./objective.sass";
+import objectiveImage from "../../images/body/objective/objective.svg";
 
 const Objects = () => {
   return (
     <>
-      <div 
+      <div
         className="block_title"
         style={{
           backgroundImage: `url("${require("../../images/header/objective.png")}"`
         }}
-      >Objectives</div>
+      >
+        Objectives
+      </div>
       <div
         className="objectives"
         style={{
@@ -17,42 +20,39 @@ const Objects = () => {
         }}
       >
         <div className="objectives_image_wrapper">
-          <div
-            className="objectives_image"
-            style={{
-              backgroundImage: `url("${require("../../images/body/objectives/objectives.png")}"`
-            }}
-          ></div>
+          <div className="objectives_image">
+            <img src={objectiveImage} alt="Vietnamese Team" />
+          </div>
         </div>
 
         <div className="objective_content_wrapper">
           <div className="objectives_content">
             <div className="objectives_content_intro">
-              Fi-Mi’s ultimate goal is to provide an efficient system to reduce the
-              consequences of air pollution, hence improve the quality of living. To
-              fulfill this goal the Fi-Mi team have identified the key objectives of
-              the project as follows:
+              Fi-Mi’s ultimate goal is to provide an efficient system to reduce
+              the consequences of air pollution, hence improve the quality of
+              living. To fulfill this goal the Fi-Mi team have identified the
+              key objectives of the project as follows:
             </div>
             <div className="objectives_content_details">
               <ul>
                 <li>
-                  To design a mobile air monitoring platform following a three-tier
-                  architecture that well defines the tiers’ roles and interplay
-                  protocols between the tiers.
+                  To design a mobile air monitoring platform following a
+                  three-tier architecture that well defines the tiers’ roles and
+                  interplay protocols between the tiers.
                 </li>
                 <li>
                   To propose optimal algorithms, protocols for the related
-                  optimization problems in each tier, relying on newly introducing
-                  mathematical models for the tiers’ operations.
+                  optimization problems in each tier, relying on newly
+                  introducing mathematical models for the tiers’ operations.
                 </li>
                 <li>
-                  To design and realize a cost-effective, high-accuracy air quality
-                  monitoring device.
+                  To design and realize a cost-effective, high-accuracy air
+                  quality monitoring device.
                 </li>
                 <li>
-                  To propose novel deep learning models that accurately predict air
-                  quality in both the spatial (un-monitoring regions) and temporal
-                  (the future) domains.
+                  To propose novel deep learning models that accurately predict
+                  air quality in both the spatial (un-monitoring regions) and
+                  temporal (the future) domains.
                 </li>
                 <li>
                   To construct a publicly available, normalized database of air

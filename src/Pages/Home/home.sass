@@ -43,13 +43,14 @@
         margin-right: 16px
       img
         width: auto
-        
+
+.home_background_wrapper
+  display: flex
+  justify-content: flex-start
+  width: 50%
   .home_background
-    width: 50%
-    background-size: contain
-    background-position: center
-    background-repeat: no-repeat
-    margin: 32px 88px
+    width: 600px
+    height: 600px
 
 @media (max-width: 1199.98px) 
   .home
@@ -65,9 +66,13 @@
         margin-right: auto
       .home_content_description
         text-align: center
-    .home_background
-      width: 100%
-      height: 432px
-      margin: 48px 0px 24px
-      order: 1
+    
+    .home_background_wrapper
+      display: block
+      width: auto
+      .home_background
+        width: auto
+        height: 432px
+        margin: 20px 98px
+        order: 1
       

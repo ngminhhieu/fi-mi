@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import "./header.sass";
 import { Link } from "react-router-dom";
-import logo from '../images/logo.svg';
+import logo from "../images/logo.svg";
+import menu from "../images/header/menu.svg";
+import close from "../images/header/close.svg";
 
 const menu_list = [
   { text: "Home", link: "/" },
@@ -48,14 +50,14 @@ const Header = () => {
       </div>
       <div className="mobile_navigation">
         <div className="menu_icon" onClick={() => showMenu()}>
-          <img src={require("../images/header/menu.png")} alt="menu" />
+          <img src={menu} alt="menu" />
         </div>
         <div
           className={classNames({ menu_list: true, active: open })}
           onClick={(e) => closeMenu(e)}
         >
           <div className="menu_close">
-            <img src={require("../images/header/close.png")} alt="close" />
+            <img src={close} alt="close" />
           </div>
           {menu_list.map((item, index) => (
             <Link to={item.link} className="item">

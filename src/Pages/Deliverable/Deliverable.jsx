@@ -1,15 +1,18 @@
 import React from "react";
 import "./deliverable.sass";
+import deliverableImage from "../../images/body/deliverable/deliverable.svg";
 
 const Objects = () => {
   return (
     <>
-      <div 
+      <div
         className="block_title"
         style={{
           backgroundImage: `url("${require("../../images/header/deliverable.png")}"`
         }}
-      >Deliverables</div>
+      >
+        Deliverables
+      </div>
       <div className="tba">TO BE ANNOUNCED</div>
       {/* <div
         className="deliverables"
@@ -18,12 +21,9 @@ const Objects = () => {
         }}
       >
         <div className="deliverables_image_wrapper">
-          <div
-            className="deliverables_image"
-            style={{
-              backgroundImage: `url("${require("../../images/body/deliverables/deliverables.png")}"`
-            }}
-          ></div>
+          <div className="deliverables_image">
+            <img src={deliverableImage} alt="Deliverable image" />
+          </div>
         </div>
 
         <div className="deliverables_content_wrapper">

@@ -1,29 +1,28 @@
 import React from "react";
 import "./team.sass";
+import teamLogo from "../../images/body/team/team_logo.svg";
+import vietnameseImage from "../../images/body/team/vietnamese_team.svg";
+import japaneseImage from "../../images/body/team/japanese_team.svg";
 
 const Team = () => {
   return (
     <>
-      <div 
+      <div
         className="block_title"
         style={{
           backgroundImage: `url("${require("../../images/header/team.png")}"`
         }}
-      >Our Team</div>
+      >
+        Our Team
+      </div>
       <div className="team">
         <div className="team_logo">
-          <img
-            src={require("../../images/body/team/team_logo.png")}
-            alt="Vietnam Flag"
-          />
+          <img src={teamLogo} alt="Vietnam Flag" />
         </div>
         <div className="team_details team_vietnam">
           <div className="team_details_image_wrapper">
             <div className="team_details_image">
-              <img
-                src={require("../../images/body/team/vietnamese_team.png")}
-                alt="Vietnamese Team"
-              />
+              <img src={vietnameseImage} alt="Vietnamese Team" />
             </div>
           </div>
           <div className="team_details_description_wrapper">
@@ -39,8 +38,8 @@ const Team = () => {
                     University of Science and Technology
                   </li>
                   <li>
-                    School of Electrical Engineering, Hanoi University of Science
-                    and Technology
+                    School of Electrical Engineering, Hanoi University of
+                    Science and Technology
                   </li>
                 </ul>
               </div>
@@ -51,7 +50,9 @@ const Team = () => {
         <div className="team_details team_japan">
           <div className="team_details_description_wrapper">
             <div className="team_details_description">
-              <div className="team_details_description_title">Japanese Team</div>
+              <div className="team_details_description_title">
+                Japanese Team
+              </div>
               <div className="team_details_description_line"></div>
               <div className="team_details_description_info">
                 <ul>
@@ -67,10 +68,7 @@ const Team = () => {
 
           <div className="team_details_image_wrapper">
             <div className="team_details_image">
-              <img
-                src={require("../../images/body/team/japanese_team.png")}
-                alt="Japanese Team"
-              />
+              <img src={japaneseImage} alt="Japanese Team" />
             </div>
           </div>
         </div>
