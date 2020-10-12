@@ -35,7 +35,7 @@ const Home = () => {
           <img src={buttonHome} alt="Button explore" />
         </Link>
       </div>
-
+ 
       <div className="home_background_wrapper">
         <div className="home_background">
           <img src={homeImage} alt="Home" />
