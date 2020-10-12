@@ -2,7 +2,7 @@ import React from "react";
 import "./home.sass";
 import { Link } from "react-router-dom";
 import buttonHome from "../../images/body/home/button.svg";
-import homeImage from "../../images/body/home/home.svg";
+import homeImage from "../../images/body/home/home.png";
 
 const Home = () => {
   return (
