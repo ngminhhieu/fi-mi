@@ -5,6 +5,34 @@
     margin: 56px 0 96px
     img
       width: auto
+  .team_member
+    margin: 40px 260px
+    .member_list_title
+      font-size: 18px
+      font-weight: bold
+      color: #2A82C4
+    .member_list_line
+      width: 72px
+      height: 2px
+      background-color: grey
+      margin: 32px 0
+    .member_list_details
+      display: flex
+      flex-wrap: wrap
+      .team_member_item_member
+        width: 200px
+        margin: 0 32px 32px 0
+        text-align: center
+        .member_name
+          padding: 20px
+        img
+          width: 100%
+          filter: grayscale(100%)
+          transition: .5s ease
+          border-radius: 20px
+        &:hover img
+          filter: none
+          border-radius: 0
   .team_details
     display: flex
     .team_details_image_wrapper
@@ -46,8 +74,7 @@
               display: inline-block
               width: 1em
               margin-left: -1em
-          
-  
+
   .team_japan
     .team_details_image_wrapper
       justify-content: flex-start
@@ -93,4 +120,11 @@
         order: 2
         justify-content: unset
         margin-bottom:  24px
-
+        
+    .team_member
+      margin: 0
+      .member_list_details
+        display: blox
+        flex-wrap: wrap
+        .team_member_item_member
+          width: 100%
