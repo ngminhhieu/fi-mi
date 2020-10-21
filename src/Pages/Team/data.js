@@ -4,15 +4,39 @@ const member_list = [
       member: [
         {
           member_name: "Do Phan Thuan",
-          member_image: require("../../images/body/team/member/Do_Phan_Thuan.png")
+          member_image: require("../../images/body/team/member/Do_Phan_Thuan.png"),
+          modal: {
+            title: "Mr. Do Phan Thuan",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "thuan.dp@sis.hust.edu.vn"
+            }
+          }
         },
         {
           member_name: "Huynh Thi Thanh Binh",
-          member_image: require("../../images/body/team/member/Huynh_Thi_Thanh_Binh.png")
+          member_image: require("../../images/body/team/member/Huynh_Thi_Thanh_Binh.png"),
+          modal: {
+            title: "Mrs. Huynh Thi Thanh Binh",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "binh.htt@sis.hust.edu.vn"
+            } 
+          }
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png")
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          modal: {
+            title: "Mrs. Nguyen Phi Le",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "le.np@sis.hust.edu.vn"
+            } 
+          }
         }
       ]
     },
@@ -21,11 +45,27 @@ const member_list = [
       member: [
         {
           member_name: "Nguyen Kien",
-          member_image: require("../../images/body/team/member/Nguyen_Kien.png")
+          member_image: require("../../images/body/team/member/Nguyen_Kien.png"),
+          modal: {
+            title: "Mr. Nguyen Kien",
+            profile: "Lecturer in Chiba University",
+            contact: {
+                phone: "0123456789",
+                email: "thuan.dp@sis.hust.edu.vn"
+            } 
+          }
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png")
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          modal: {
+            title: "Mrs. Nguyen Phi Le",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "le.np@sis.hust.edu.vn"
+            } 
+          }
         }
       ]
     },
@@ -34,11 +74,27 @@ const member_list = [
       member: [
         {
           member_name: "Le Minh Thuy",
-          member_image: require("../../images/body/team/member/Le_Minh_Thuy.png")
+          member_image: require("../../images/body/team/member/Le_Minh_Thuy.jpg"),
+          modal: {
+            title: "Mrs. Le Minh Thuy",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "thuan.dp@sis.hust.edu.vn"
+            } 
+          }
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png")
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          modal: {
+            title: "Mrs. Nguyen Phi Le",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "le.np@sis.hust.edu.vn"
+            } 
+          }
         }
       ]
     },
@@ -47,11 +103,27 @@ const member_list = [
       member: [
         {
           member_name: "Nguyen Cam Ly",
-          member_image: require("../../images/body/team/member/Nguyen_Cam_Ly.png")
+          member_image: require("../../images/body/team/member/Nguyen_Cam_Ly.jpg"),
+          modal: {
+            title: "Mr. Nguyen Cam Ly",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "thuan.dp@sis.hust.edu.vn"
+            } 
+          }
         },
         {
           member_name: "Le Minh Thuy",
-          member_image: require("../../images/body/team/member/Le_Minh_Thuy.png")
+          member_image: require("../../images/body/team/member/Le_Minh_Thuy.jpg"),
+          modal: {
+            title: "Mrs. Le Minh Thuy",
+            profile: "Lecturer in Hanoi University of Science and Technology",
+            contact: {
+                phone: "0123456789",
+                email: "thuan.dp@sis.hust.edu.vn"
+            } 
+          }
         }
       ]
     }

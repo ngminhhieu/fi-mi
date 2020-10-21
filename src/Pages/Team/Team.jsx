@@ -1,11 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import "./team.sass";
 import teamLogo from "../../images/body/team/team_logo.svg";
 import vietnameseImage from "../../images/body/team/vietnamese_team.svg";
 import japaneseImage from "../../images/body/team/japanese_team.svg";
 import member_list from "./data.js";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 const Team = () => {
+  const [show, setShow] = useState({display: false, name: '', profile: '', phone: '', email: ''});
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <>
       <div
@@ -29,10 +35,9 @@ const Team = () => {
               <div className="member_list_details">
                 {item.member.map((item_member, index_member) => (
                   <div className="team_member_item_member">
-                    <img src={item_member.member_image} alt="Member" />
+                    <img src={item_member.member_image} alt="Member" onClick={e => setShow({display: true, name: item_member.modal.title, profile: item_member.modal.profile, phone: item_member.modal.contact.phone, email: item_member.modal.contact.email})}/>
                     <div className="member_name">{item_member.member_name}</div>
                   </div>
-                  // <div className="member_name">{item_member.member_name}</div>
                 ))}
               </div>
             </div>
@@ -93,6 +98,29 @@ const Team = () => {
           </div>
         </div>
       </div>
+
+      <Modal show={show.display} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{show.name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h3>Profile</h3>
+          <hr></hr>
+          <p>{show.profile}</p>
+          <hr></hr>
+          <h3>Contact Info</h3>
+          <p>
+            <b>Tel:</b> {show.phone}
+            <br></br>
+            <b>Email:</b> {show.email}
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 };
