@@ -4,7 +4,7 @@ const member_list = [
       member: [
         {
           member_name: "Do Phan Thuan",
-          member_image: require("../../images/body/team/member/Do_Phan_Thuan.png"),
+          member_image: require("../../images/body/team/member/Do_Phan_Thuan.jpg"),
           modal: {
             title: "Mr. Do Phan Thuan",
             profile: "Lecturer in Hanoi University of Science and Technology",
@@ -16,7 +16,7 @@ const member_list = [
         },
         {
           member_name: "Huynh Thi Thanh Binh",
-          member_image: require("../../images/body/team/member/Huynh_Thi_Thanh_Binh.png"),
+          member_image: require("../../images/body/team/member/Huynh_Thi_Thanh_Binh.jpg"),
           modal: {
             title: "Mrs. Huynh Thi Thanh Binh",
             profile: "Lecturer in Hanoi University of Science and Technology",
@@ -28,7 +28,7 @@ const member_list = [
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           modal: {
             title: "Mrs. Nguyen Phi Le",
             profile: "Lecturer in Hanoi University of Science and Technology",
@@ -57,7 +57,7 @@ const member_list = [
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           modal: {
             title: "Mrs. Nguyen Phi Le",
             profile: "Lecturer in Hanoi University of Science and Technology",
@@ -86,7 +86,7 @@ const member_list = [
         },
         {
           member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.png"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           modal: {
             title: "Mrs. Nguyen Phi Le",
             profile: "Lecturer in Hanoi University of Science and Technology",
