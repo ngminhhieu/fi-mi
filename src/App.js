@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/architecture" component={Architecture} />
           <Route exact path="/objective" component={Objective} />
-          <Route exact path="/deliverable" component={Deliverable} />
+          {/* <Route exact path="/deliverable" component={Deliverable} /> */}
           <Route exact path="/publication" component={Publication} />
           <Route exact path="/news" component={News} />
           <Route exact path="/contact" component={Contact} />

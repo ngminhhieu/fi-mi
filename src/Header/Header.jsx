@@ -11,7 +11,7 @@ const menu_list = [
   { text: "Team", link: "/team" },
   { text: "Fi-Mi Architecture", link: "/architecture" },
   { text: "Objectives", link: "/objective" },
-  { text: "Deliverables", link: "/deliverable" },
+  // { text: "Deliverables", link: "/deliverable" },
   { text: "Publications", link: "/publication" },
   { text: "News", link: "/news" },
   { text: "Contact", link: "/contact" }

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./team.sass";
 import teamLogo from "../../images/body/team/team_logo.svg";
 import vietnameseImage from "../../images/body/team/vietnamese_team.svg";
@@ -8,7 +8,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
 const Team = () => {
-  const [show, setShow] = useState({display: false, name: '', profile: '', phone: '', email: ''});
+  const [show, setShow] = useState({ display: false, name: '', profile: '', email: '' });
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -35,8 +35,9 @@ const Team = () => {
               <div className="member_list_details">
                 {item.member.map((item_member, index_member) => (
                   <div className="team_member_item_member">
-                    <img src={item_member.member_image} alt="Member" onClick={e => setShow({display: true, name: item_member.modal.title, profile: item_member.modal.profile, phone: item_member.modal.contact.phone, email: item_member.modal.contact.email})}/>
-                    <div className="member_name">{item_member.member_name}</div>
+                    <img src={item_member.member_image} alt="Member" onClick={e => setShow({ display: true, name: item_member.modal.title, profile: item_member.modal.profile, email: item_member.modal.contact.email })} />
+                    {/* <div className="member_name">{item_member.member_name}</div> */}
+                    <a href={item_member.personal_link} target="_blank">{item_member.member_name}</a>
                   </div>
                 ))}
               </div>
@@ -110,8 +111,6 @@ const Team = () => {
           <hr></hr>
           <h3>Contact Info</h3>
           <p>
-            <b>Tel:</b> {show.phone}
-            <br></br>
             <b>Email:</b> {show.email}
           </p>
         </Modal.Body>
