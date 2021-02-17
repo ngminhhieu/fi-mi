@@ -27,6 +27,12 @@ const Publications = () => {
           <p>[2] La Van Quan, Phi Le Nguyen, Thanh-Hung Nguyen, Kien Nguyen, “Q-learning-based,
              Optimized On-demand Charging Algorithm in WRSN”, The 19th IEEE International 
              Symposium on Network Computing and Applications (NCA 2020) (Accepted).</p>
+          <p>[3] Nguyen Thi Hanh, Huynh Thi Thanh Binh and Nguyen Van Son, "Minimal Relay Node Placement for 
+             Ensuring Network Connectivity in Mobile Wireless Sensor Networks", The 19th IEEE International 
+             Symposium on Network Computing and Applications (NCA 2020).</p>
+          <p>[4] Viet-Dung Nguyen, Phi Le Nguyen, Trung Hieu Nguyen, Phan Thuan Do, “A 1/2-Approximation 
+             Algorithm for Target Coverage Problem in Mobile Air Quality Monitoring Systems”, The 2020 IEEE 
+             Global Communications Conference (IEEE GLOBECOM), 8–10 December 2020, Taipei, Taiwan.</p>  
         </div>
       </div>
     </>
