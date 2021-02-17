@@ -23,10 +23,10 @@ const Publications = () => {
           <p>[1] Viet Dung Nguyen, Phi Le Nguyen, Trung Hieu Nguyen, Kien Nguyen, 
             Phan Thuan Do, “An (e-1)/(2e-1)-Approximation Algorithm for Maximizing the Coverage 
             Capability in Vehicle-based Mobile Air Quality Monitoring Systems”, 
-            The 19th IEEE International Symposium on Network Computing and Applications (NCA 2020) (Accepted).</p>
+            The 19th IEEE International Symposium on Network Computing and Applications (NCA 2020).</p>
           <p>[2] La Van Quan, Phi Le Nguyen, Thanh-Hung Nguyen, Kien Nguyen, “Q-learning-based,
              Optimized On-demand Charging Algorithm in WRSN”, The 19th IEEE International 
-             Symposium on Network Computing and Applications (NCA 2020) (Accepted).</p>
+             Symposium on Network Computing and Applications (NCA 2020).</p>
           <p>[3] Nguyen Thi Hanh, Huynh Thi Thanh Binh and Nguyen Van Son, "Minimal Relay Node Placement for 
              Ensuring Network Connectivity in Mobile Wireless Sensor Networks", The 19th IEEE International 
              Symposium on Network Computing and Applications (NCA 2020).</p>
