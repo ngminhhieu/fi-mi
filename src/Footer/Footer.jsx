@@ -8,7 +8,7 @@ const Footer = () => {
         Copyright © 2021 Fi-Mi © Project All Rights Reserved
       </div>
       <div className="social_icon">
-        <a href="#abc">
+        <a href="https://www.facebook.com/Fimiers/" target="_blank">
           <svg
             width="24"
             height="24"
