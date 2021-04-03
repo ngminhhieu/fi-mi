@@ -75,7 +75,7 @@ const member_list = [
         {
           member_name: "Nguyen Kien",
           member_image: require("../../images/body/team/member/Nguyen_Kien.png"),
-          personal_link: "http://www.s-lab.nd.chiba-u.jp/nguyen/",
+          personal_link: "https://www.s-lab.nd.chiba-u.jp/nguyen/index.html",
           modal: {
             title: "Mr. Nguyen Kien",
             profile: "Lecturer at Chiba University, Chiba, Japan",
