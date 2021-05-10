@@ -32,7 +32,10 @@ const Publications = () => {
              Symposium on Network Computing and Applications (NCA 2020).</p>
           <p>[4] Viet-Dung Nguyen, Phi Le Nguyen, Trung Hieu Nguyen, Phan Thuan Do, “A 1/2-Approximation 
              Algorithm for Target Coverage Problem in Mobile Air Quality Monitoring Systems”, The 2020 IEEE 
-             Global Communications Conference (IEEE GLOBECOM), 8–10 December 2020, Taipei, Taiwan.</p>  
+             Global Communications Conference (IEEE GLOBECOM), 8–10 December 2020, Taipei, Taiwan.</p>
+          <p>[5] Do Bao Son, Vu Tri An, Trinh Thu Hai, Binh Minh Nguyen, Phi Le Nguyen, Huynh Thi Thanh Binh, 
+             “Fuzzy Deep Q-learning Task Offloading in Delay Constrained Vehicular Fog Computing”,
+             International Joint Conference on Neural Network, IJCNN 2021 (Accepted)</p>
         </div>
       </div>
     </>
